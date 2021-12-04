@@ -112,13 +112,13 @@ function Header() {
             <RightMenu>
                 <ol>
                     <li>
-                        <a href="#"><span>Shop</span></a>
+                        <a href="$#32"><span>Shop</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Account</span></a>
+                        <a href="$#31"><span>Account</span></a>
                     </li>
                     <li>
-                        <a href="#" onClick={() => setBurgerStatus(true)}><span>Menu</span></a>
+                        <a href="$#98" onClick={() => setBurgerStatus(true)}><span>Menu</span></a>
                     </li>
                 </ol>
             </RightMenu>
@@ -129,17 +129,17 @@ function Header() {
                 {cars && cars.map((car, index) => (
                     <li><a key={index} href="#">{car}</a></li>
                 ))}
-                <li><a href="#">Existing Inventory</a></li>
-                <li><a href="#">Used Inventory</a></li>
-                <li><a href="#">Trade-in</a></li>
-                <li><a href="#">Test Drive</a></li>
-                <li><a href="#">Powerwall</a></li>
-                <li><a href="#">Commercial Energy</a></li>
-                <li><a href="#">Utilities</a></li>
-                <li><a href="#">Charging</a></li>
-                <li><a href="#">Find Us</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Investor Relations</a></li>
+                <li><a href="$#1">Existing Inventory</a></li>
+                <li><a href="$#2">Used Inventory</a></li>
+                <li><a href="$#3">Trade-in</a></li>
+                <li><a href="$#4">Test Drive</a></li>
+                <li><a href="$#5">Powerwall</a></li>
+                <li><a href="$#6">Commercial Energy</a></li>
+                <li><a href="$#7">Utilities</a></li>
+                <li><a href="$#8">Charging</a></li>
+                <li><a href="$#9">Find Us</a></li>
+                <li><a href="$#10">Support</a></li>
+                <li><a href="$#11">Investor Relations</a></li>
             </BurgerNav>
         </Container>
     )
