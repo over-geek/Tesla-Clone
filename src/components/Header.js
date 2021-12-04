@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import {FaBars} from 'react-icons/fa'
 import {FaTimes} from 'react-icons/fa'
 import { selectCars } from '../features/car/carSlice'
 import { useSelector } from 'react-redux'
